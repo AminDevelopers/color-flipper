@@ -1,0 +1,97 @@
+body,
+html {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+* {
+  font-family: poppins;
+}
+
+nav {
+  padding: 0.2em;
+  background-color: whitesmoke;
+  padding-inline: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px 0 black;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li:not(:first-of-type) {
+  margin-left: 2em;
+}
+
+nav ul li:first-of-type {
+  color: #222;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* main */
+main {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  place-items: center;
+  row-gap: 1.8em;
+}
+
+main .bg_div {
+  background: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.4em 2.4em;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.bg_div p {
+  font-size: 2.4rem;
+}
+
+.bg_div span {
+  font-size: 2.4rem;
+  margin-inline: 0.6em;
+}
+
+main button {
+  border: 2px solid #111;
+  outline: none;
+  padding: 0.3em 1.2em;
+  font-weight: 800;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  color: #111;
+  cursor: pointer;
+  transition: background 200ms ease-in;
+}
+
+main button:first-of-type {
+  margin-right: 1.4em;
+}
+
+main button:hover,
+main button:focus-visible {
+  background-color: #222;
+  transition: background 200ms ease-in;
+  color: white;
+}
+
+main .btns {
+  display: flex;
+}
