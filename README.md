@@ -1,4 +1,4 @@
-🌈 **Color Flipper Background 🎨**
+🌈 **Color Flipper 🎨**
 
 Instantly change the background color ! Explore the magic of two buttons for random color generation in both RGBA and Hex codes. 🚀✨
 
